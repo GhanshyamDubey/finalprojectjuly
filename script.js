@@ -25,7 +25,7 @@ myCart.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/cart.html"
+        window.location.href = "cart.html"
     }
 })
 
@@ -36,6 +36,6 @@ myProfile.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/profile.html"
+        window.location.href = "profile.html"
     }
 })
