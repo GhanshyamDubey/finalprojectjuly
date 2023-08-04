@@ -56,7 +56,7 @@ lploginbtn.addEventListener('click', (e) => {
                 currentUserObj.token = generateString(16);
                 sessionStorage.setItem('currentUserObj', JSON.stringify(currentUserObj));
                 // myForm.reset();
-                window.location.href = "/shop.html";
+                window.location.href = "shop.html";
             }
         }
             // alert('User Does Not Exist');
@@ -72,7 +72,7 @@ myCart.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/cart.html"
+        window.location.href = "cart.html"
     }
 })
 
@@ -83,6 +83,6 @@ myProfile.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/profile.html"
+        window.location.href = "profile.html"
     }
 })
